@@ -1,3 +1,4 @@
+import time
 def partice_replace(word1, word2):
     array = []
     if min(len(word1), len(word2)) == 0:
@@ -25,5 +26,5 @@ def partice_replace(word1, word2):
     return max(len(word2), len(word1))
 
 
-
-print(partice_replace("задача", 'зачада'))
+t_ = time.time()
+print(partice_replace("задачаsfdsfdsfvhjvvvb", 'зачаviuviuvuvvviuvviuvда'), time.time() - t_)
